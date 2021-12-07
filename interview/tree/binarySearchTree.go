@@ -24,7 +24,7 @@ func init() {
 }
 
 //添加一个节点， 如果Node为nil 表示为空节点
-func addNode(val int, Node * TreeNode) {
+func addNode(val int, Node *TreeNode) {
 	if Node == nil {
 		Node = &RootNode
 	}

@@ -2,7 +2,6 @@ package sort
 
 import (
 	"testing"
-	"fmt"
 )
 
 func Test_SelectSort(t *testing.T) {
