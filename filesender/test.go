@@ -6,8 +6,8 @@ import (
 	"strconv"
 )
 
-func main () {
+func main() {
 	for idx, args := range os.Args {
-		fmt.Println("参数" + strconv.Itoa(idx) + ":", args)
+		fmt.Println("参数"+strconv.Itoa(idx)+":", args)
 	}
 }
