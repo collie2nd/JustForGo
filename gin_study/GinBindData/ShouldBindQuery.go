@@ -71,12 +71,12 @@ func main() {
 
 type Student struct {
 	Name    string `form:"name"`
-	Classes string `form:"classes""`
+	Classes string `form:"classes"`
 }
 
 type Register struct {
 	Username string `form:"username"`
-	Phone    string `form:"phone""`
+	Phone    string `form:"phone"`
 	Password string `form:"password"`
 }
 
