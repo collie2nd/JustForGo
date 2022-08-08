@@ -3,6 +3,7 @@ module JustForGo
 go 1.17
 
 require (
+	github.com/spf13/cobra v1.5.0
 	google.golang.org/grpc v1.44.0
 	google.golang.org/protobuf v1.25.0
 	gorm.io/driver/postgres v1.3.1
@@ -11,6 +12,7 @@ require (
 
 require (
 	github.com/golang/protobuf v1.4.3 // indirect
+	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jackc/chunkreader/v2 v2.0.1 // indirect
 	github.com/jackc/pgconn v1.10.1 // indirect
 	github.com/jackc/pgio v1.0.0 // indirect
@@ -21,6 +23,7 @@ require (
 	github.com/jackc/pgx/v4 v4.14.1 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.4 // indirect
+	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 	golang.org/x/net v0.0.0-20210226172049-e18ecbb05110 // indirect
 	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
