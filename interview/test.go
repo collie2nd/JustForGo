@@ -19,6 +19,7 @@ func getSubStr(str []byte) {
 			if i+l-1 < max {
 				fmt.Println(string(str[i : i+l]))
 				i++
+				i++
 			} else {
 				i = 0
 				l++

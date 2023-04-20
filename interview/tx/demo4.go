@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	f := fibonacci()
-	for i := 0; i < 10; i++ {
+	f := fbHandler()
+	for i := 0; i < 20; i++ {
 		fmt.Println(f())
 	}
 }
 
-func fibonacci() func() int {
+func fbHandler() func() int {
 	a, b, tmp := 0, 1, 0
 	return func() int {
 		tmp = a
