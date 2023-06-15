@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	f, err := excelize.OpenFile("./HealthCheck.xlsx")
+	f, err := excelize.OpenFile("D:/GolandProjects/JustForGo/excel/read_excel/HealthCheck.xlsx")
 	if err != nil {
 		fmt.Println(err)
 		return
