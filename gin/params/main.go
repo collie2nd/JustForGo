@@ -13,6 +13,7 @@ type RawStruct struct {
 
 type RawQuery struct {
 	Query string `json:"query" uri:"query" form:"query"`
+	// nothing
 }
 
 type PostFormStruct struct {
